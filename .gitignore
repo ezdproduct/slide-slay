@@ -146,3 +146,60 @@ cython_debug/
 
 .DS_Store
 .idea/**/.DS_Store
+
+
+# --- SLIDE-DECK-AI specific ignores ---
+
+# Output files (generated slides)
+*.pptx
+
+# API credentials and tokens
+.env
+client_secret.json
+credentials.json
+token.json
+
+# Streamlit local cache and logs
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Google OAuth tokens
+token.pickle
+
+# Python virtual environments
+venv/
+.env/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Pycache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+build/
+dist/
+
+# VS Code, PyCharm, system junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# Generated data
+downloads/
+cache/
+tmp/
